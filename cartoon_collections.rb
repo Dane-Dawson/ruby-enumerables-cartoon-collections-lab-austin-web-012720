@@ -28,4 +28,5 @@ def find_the_cheese(array)# code an argument here (array of strings)
     array.each{|ingredient| if cheese_types.include?(ingredient) p ingredient}
     
     
+    
 end
