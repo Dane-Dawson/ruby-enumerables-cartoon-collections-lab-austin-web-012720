@@ -10,7 +10,7 @@ def summon_captain_planet(array)# code an argument here
   array.map! { |planet_call| planet_call.capitalize }
   excited_cries = []
   capitalize.each { |planet_call_exclaim| excited_cries.push planet_call_exclaim + "!" }
-  excited_cries
+  puts excited_cries
   
   #capitalize each element and add an exclamation point, return in an array
   # Your code here
