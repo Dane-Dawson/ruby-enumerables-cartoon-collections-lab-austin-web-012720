@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)# code an argument here
   # should print out each name, in number order, using puts. use each_with_index method
-hash = Hash.new
+hash = {}
  array.each_with_index { |dwarf, index| hash = dwarf[index]}
 
 puts hash  
