@@ -15,7 +15,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)# code an argument here
-   return array.any? { |word| word.length >= 4 } 
+   return array.any? { |word| word.length > 4 } 
   
   #method should tell us if any of the calls are longer than 4 characters, returning false if not
   # Your code here
