@@ -6,10 +6,8 @@ def roll_call_dwarves(array)# code an argument here
 end
 
 def summon_captain_planet(array)# code an argument here
-  capitalize = []
-  array.map! { |planet_call| capitalize.push planet_call }
   excited_cries = []
-  capitalize.each { |planet_call_exclaim| excited_cries.push "#{planet_call_exclaim} !" }
+  array.each { |planet_call_exclaim| excited_cries.push "#{planet_call_exclaim} !" }
   puts excited_cries
   
   #capitalize each element and add an exclamation point, return in an array
