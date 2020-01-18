@@ -4,7 +4,7 @@ hash = Hash.new
  array.each_with_index { |dwarf, index|
   hash[dwarf] = index
 }
-hash  
+puts hash  
 end
 
 def summon_captain_planet(array)# code an argument here
