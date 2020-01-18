@@ -22,9 +22,8 @@ def long_planeteer_calls(array)# code an argument here
 end
 
 def find_the_cheese(array)# code an argument here (array of strings)
-  array.include?("cheddar", "gouda", "camerbert")
-  
   #look through strings to find and return the first string that is a type of cheese as noted by cheese_types. if no cheese present return nil. .include could be useful
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+    array.include?(cheese_types)
 end
