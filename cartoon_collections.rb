@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)# code an argument here
   # should print out each name, in number order, using puts. use each_with_index method
 
- array.each_with_index { |item, index| p "#{index}:#{item}" }
+ array.each_with_index { |item, index| p "#{index+1}.#{item}" }
  
 end
 
